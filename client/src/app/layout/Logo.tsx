@@ -1,0 +1,10 @@
+export default function Logo({ size = 32 }: { size?: number }) {
+    return (
+        <svg width={size} height={size} viewBox="0 0 64 64" aria-hidden>
+            <rect width="64" height="64" rx="14" fill="#2e63c9" />
+            <path d="M18 20h20a8 8 0 0 1 8 8v6a8 8 0 0 1-8 8h-8l-8 7v-7h-4a8 8 0 0 1-8-8v-6a8 8 0 0 1 8-8z" fill="#ffffff" />
+            <circle cx="26" cy="31" r="3" fill="#2e63c9" />
+            <circle cx="36" cy="31" r="3" fill="#2e63c9" />
+        </svg>
+    );
+}

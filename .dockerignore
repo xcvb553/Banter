@@ -1,0 +1,11 @@
+**/node_modules
+**/bin
+**/obj
+**/dist
+**/*.db
+**/*.db-*
+Banter.Api/wwwroot/avatars/*
+Banter.Api/wwwroot/uploads/*
+.git
+.env
+docs
